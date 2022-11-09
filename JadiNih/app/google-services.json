@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "523513940106",
+    "project_id": "jadi-nih",
+    "storage_bucket": "jadi-nih.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:523513940106:android:e32aa2dc2b2b17e8d68573",
+        "android_client_info": {
+          "package_name": "com.example.jadinih"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "523513940106-i6ukhiu2sdcfm9kosos2lkshnd772m97.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBONNK5y5tNayuSePon_3LqAZ1KPjHj1u8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "523513940106-i6ukhiu2sdcfm9kosos2lkshnd772m97.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

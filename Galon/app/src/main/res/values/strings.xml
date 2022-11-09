@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Galon</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="transfer_bank">Silahkan Transfer ke Nomor Rekening Dibawah ini Sesuai Dengan Nominal Total Belanja Anda</string>
+    <string name="rek_bri">BRI : 129470291649270 an : GaGasOfficial</string>
+    <string name="rek_bca">BCA : 19738942829037 an : GaGasOfficial</string>
+    <string name="rek_bni">BNI : 129477032973984 an : GaGasOfficial</string>
+    <string name="rek_mandiri">Mandiri : 397994739028949 an GaGasOfficial</string>
+</resources>

@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "918482659330",
+    "project_id": "galongas-1012c",
+    "storage_bucket": "galongas-1012c.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:918482659330:android:98d53088e848cb816fdf1b",
+        "android_client_info": {
+          "package_name": "com.example.galon"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "918482659330-jo3e5fa04ibt2h4qog6tb3l0le95c1to.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.galon",
+            "certificate_hash": "054e33b002cf388d9392a89f01f534830c35b39e"
+          }
+        },
+        {
+          "client_id": "918482659330-rn7gca3c74vmmmn8772ffolf72hcrh3h.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDbQaQHMrWFmWIW8v7EzilQPgg5UgRl-Dk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "918482659330-rn7gca3c74vmmmn8772ffolf72hcrh3h.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

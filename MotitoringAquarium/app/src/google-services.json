@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "11718216600",
+    "project_id": "appmoaqu",
+    "storage_bucket": "appmoaqu.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:11718216600:android:95ecdd74e399a8ce7ff9ed",
+        "android_client_info": {
+          "package_name": "com.example.motitoringaquarium"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "11718216600-uqak3u7hp3e23k9hk75ljtfeqdoil2to.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.motitoringaquarium",
+            "certificate_hash": "054e33b002cf388d9392a89f01f534830c35b39e"
+          }
+        },
+        {
+          "client_id": "11718216600-g0m8glc32n30h5ea63sboejjhgqsfla8.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCyZjJpuBeaPfWMoPoQ4HEfS0ignFE7ltc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "11718216600-g0m8glc32n30h5ea63sboejjhgqsfla8.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

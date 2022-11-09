@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ControlActivity">
+
+    <Button
+        android:id="@+id/control_maju"
+        android:layout_width="150dp"
+        android:layout_height="70dp"
+        android:layout_centerHorizontal="true"
+        android:backgroundTint="@color/black"
+        android:text="Maju"
+        android:textSize="25sp" />
+
+    <Button
+        android:id="@+id/control_mundur"
+        android:layout_width="150dp"
+        android:layout_height="70dp"
+        android:layout_below="@+id/control_maju"
+        android:layout_centerHorizontal="true"
+        android:backgroundTint="@color/black"
+        android:text="mundur"
+        android:textSize="25sp" />
+
+    <Button
+        android:id="@+id/control_kiri"
+        android:layout_width="150dp"
+        android:layout_height="70dp"
+        android:layout_below="@+id/control_mundur"
+        android:layout_centerHorizontal="true"
+        android:backgroundTint="@color/black"
+        android:text="Kiri"
+        android:textSize="25sp"
+        />
+
+    <Button
+        android:id="@+id/control_kanan"
+        android:layout_width="150dp"
+        android:layout_height="70dp"
+        android:layout_below="@+id/control_kiri"
+        android:layout_centerHorizontal="true"
+        android:backgroundTint="@color/black"
+        android:text="kanan"
+        android:textSize="25sp"
+        />
+
+    <Button
+
+        android:id="@+id/control_disconnect"
+        android:layout_width="wrap_content"
+        android:layout_height="70dp"
+        android:layout_below="@+id/control_kanan"
+        android:layout_centerHorizontal="true"
+        android:text="DISCONNECT"
+        android:backgroundTint="@color/black"
+        android:textSize="25sp" />
+
+
+
+</RelativeLayout>
