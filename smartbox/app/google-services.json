@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "171099550314",
+    "firebase_url": "https://smartbox-penerima-barang-default-rtdb.firebaseio.com",
+    "project_id": "smartbox-penerima-barang",
+    "storage_bucket": "smartbox-penerima-barang.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:171099550314:android:07315cc5343b20b9b91013",
+        "android_client_info": {
+          "package_name": "com.example.smartbox"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "171099550314-fmg5m13r7bh5dp63f936qnpptq9d47us.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD-Cf4z72ok1VYrOTvlb6ELVwf1yRagq_g"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "171099550314-fmg5m13r7bh5dp63f936qnpptq9d47us.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
