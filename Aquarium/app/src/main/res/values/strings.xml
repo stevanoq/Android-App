@@ -1,0 +1,39 @@
+<resources>
+    <string name="app_name">Aquarium</string>
+    <string name="guide_title"><b>Petunjuk Penggunaan Aplikasi</b></string>
+    <string name="guide_1">
+        <b>1.</b> Jika belum memiliki akun anda harus registrasi namun jika sudah memiliki akun anda bisa langsung masuk ke aplikasi.
+    </string>
+    <string name="guide_2">
+        <b>2.</b> Terdapat dua fitur aplikasi yaitu Monitoring Nilai TDS Aquarium dan Jadwal Pemberian Pakan Ikan. Untuk fitur Monitoring Nilai TDS Aquarium anda dapat melihat normal dan buruknya nilai TDS air dalam aquarium ikan hias anda, sedangkan fitur jadwal pemberian pakan ikan anda bisa mengatur jadwal pemberian pakan ikan agar ikan anda dapat makan tepat waktu
+    </string>
+    <string name="guide_3">
+        <b>3.</b> Jika nilai Total Disolve Solid (TDS) air di aquarium buruk akan ada catatan bahwa air dalam aquarium harus diganti dan jika ikan hias anda belum diberikan pakan akan muncul catatan juga
+    </string>
+
+    <string name="login_title"><b>Monitoring Sensor TDS Air dan Pakan Ikan Hias</b></string>
+    <string name="login_msg">Untuk menggunakan aplikasi silahkan registrasi akun atau jika anda sudah memiliki akun silahkan masuk !</string>
+    <string name="login_email_str">Masukan Email Anda :</string>
+    <string name="login_password_str">Masukan Password :</string>
+    <string name="masuk">Masuk</string>
+    <string name="reg_msg">Belum Punya Akun ?</string>
+    <string name="daftar">Daftar</string>
+
+    <string name="reg_name">Masukan Nama Anda :</string>
+    <string name="reg_title"><b>Selamat Datang!</b></string>
+    <string name="reg_msg1">Jaga Kadar Air Aquarium Anda Dengan Cara Mengontrol Nilai TDS Air Aquarium Ikan Hias Anda</string>
+    <string name="reg">Registrasi Akun</string>
+    <string name="login_btn">Sudah Punya Akun ?</string>
+
+    <string name="wellcome"><b>Hi!</b></string>
+    <string name="main_msg"><b>Jaga Ikan Hias Anda Agar Tetap Hidup Dengan Baik</b></string>
+    <string name="status">Status</string>
+
+    <string name="jadwal"><b>Jadwal Pemberian pakan</b></string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string name="reset_msg">Masukkan Email Anda</string>
+    <string name="scedule_msg">Masukan Jadwal Pakan Ikan Anda Dengan Format 24 Jam</string>
+
+</resources>

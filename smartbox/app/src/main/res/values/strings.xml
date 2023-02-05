@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">smartbox</string>
+    <string name="app_name">smartbox V1</string>
     <string name="login_txt"><b><i>GO</i></b></string>
     <string name="daftarakun"><b><i>Daftar Akun</i></b></string>
     <string name="daftar_btn"><b><i>Daftar</i></b></string>
@@ -8,4 +8,7 @@
     <string name="forget_message"><b>Silahkan masukan email anda</b></string>
     <string name="confirm"><b><i>Confirm</i></b></string>
     <string name="cancle"><b><i>Cancle</i></b></string>
+    <string name="tutup"><b><i>Tutup</i></b></string>
+    <string name="barcodeInfo"><b>Barcode anda hanya dapat digunakan 1 kali</b></string>
+    <string name="logoutMessage"><b>Anda ingin LOGOUT ?</b></string>
 </resources>

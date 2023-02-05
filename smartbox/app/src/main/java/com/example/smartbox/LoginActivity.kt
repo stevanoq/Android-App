@@ -55,27 +55,18 @@ class LoginActivity : AppCompatActivity() {
         var password = findViewById<EditText>(R.id.loginPass)
         var etPassword = password.text.toString()
 
-        if (etEmail.isEmpty()){
-            email.error = "Email tidak boleh kosong"
-            email.requestFocus()
+        if (etEmail.isEmpty() || etPassword.isEmpty()){
+            Toast.makeText(this, "Email dan Password Tidak Boleh Kosong", Toast.LENGTH_SHORT).show()
             return
         }
 
         if (!Patterns.EMAIL_ADDRESS.matcher(etEmail).matches()){
-            email.error = "Email tidak valid"
-            email.requestFocus()
-            return
-        }
-
-        if (etPassword.isEmpty()){
-            password.error = "Password tidak boleh kosong"
-            password.requestFocus()
+            Toast.makeText(this, "Email Tidak Valid", Toast.LENGTH_SHORT).show()
             return
         }
 
         if (etPassword.length < 6){
-            password.error = "Password tidak boleh kurang dari 6"
-            password.requestFocus()
+            Toast.makeText(this, "Password Tidak Boleh Kurang Dari 6", Toast.LENGTH_SHORT).show()
             return
         }
 

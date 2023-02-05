@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+    <item android:title="Home"
+        android:id="@+id/home"
+        android:icon="@drawable/home"
+        app:cnb_iconColor="#FFFFFF"/>
+
+    <item android:title="Account"
+        android:id="@+id/profile"
+        android:icon="@drawable/acount"
+        app:cnb_iconColor="#FFFFFF"/>
+
+    <item android:title="Setting"
+        android:id="@+id/setting"
+        android:icon="@drawable/setting"
+        app:cnb_iconColor="#FFFFFF"/>
+
+</menu>

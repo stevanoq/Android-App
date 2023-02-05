@@ -44,46 +44,24 @@ class RegisterActivity : AppCompatActivity() {
         var password = etPass.text.toString()
         var confPassword = etConfPass.text.toString()
 
-        if (username.isEmpty()){
-            etUsername.error = "Username tidak boleh kosong"
-            etUsername.requestFocus()
-            return
-        }
-
-        if (email.isEmpty()){
-            etEmail.error = "Email tidak boleh kosong"
-            etEmail.requestFocus()
-            return
-        }
-
-        if (password.isEmpty()){
-            etPass.error = "Password tidak boleh kosong"
-            etPass.requestFocus()
-            return
-        }
-
-        if (confPassword.isEmpty()){
-            etConfPass.error = "Confirm password tidak boleh kosong"
-            etConfPass.requestFocus()
+        if (username.isEmpty() || email.isEmpty() || password.isEmpty() || confPassword.isEmpty()){
+            Toast.makeText(this, "Data Tidak Boleh Kosong", Toast.LENGTH_SHORT).show()
             return
         }
 
         if (!Patterns.EMAIL_ADDRESS.matcher(email).matches()){
-            etEmail.error = "Email Tidak Valid"
-            etEmail.requestFocus()
+            Toast.makeText(this, "Email Tidak Valid", Toast.LENGTH_SHORT).show()
             return
         }
 
         if (password.isEmpty() || password.length < 6){
-            etPass.error = "Password minimal 6 caracter"
-            etPass.requestFocus()
+            Toast.makeText(this, "Password Minimal 6 Karakter", Toast.LENGTH_SHORT).show()
             return
         }
 
         if (username.isEmpty() || username.length < 4)
         {
-            etUsername.error = "Username minimal 4 caracter"
-            etUsername.requestFocus()
+            Toast.makeText(this, "Username Minimal 4 Karakter", Toast.LENGTH_SHORT).show()
             return
         }
 

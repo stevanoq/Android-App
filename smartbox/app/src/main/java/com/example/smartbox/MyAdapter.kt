@@ -12,6 +12,7 @@ import android.view.View
 import android.view.ViewGroup
 import android.view.Window
 import android.widget.TextView
+import android.widget.Toast
 import androidx.core.view.isInvisible
 import androidx.core.view.isVisible
 import androidx.recyclerview.widget.RecyclerView
@@ -52,6 +53,7 @@ class MyAdapter(val itemList: List<Item>, val mainActivity: MainActivity) : Recy
                 dbref.child(currentitem.resi.toString()).removeValue()
                 dialog.dismiss()
                 mainActivity.recreate()
+                Toast.makeText(mainActivity, "Resi BERHASIL di Hapus", Toast.LENGTH_SHORT).show()
             }
 
             no.setOnClickListener {
