@@ -73,9 +73,9 @@ class Home : Fragment() {
                 var in_tdsMin : Int = Integer.parseInt(tdsMin)
                 var in_tdsMax : Int = Integer.parseInt(tdsMax)
 
-                var in_temp : Int = Integer.parseInt(temp)
-                var in_tempMin : Int = Integer.parseInt(tempMin)
-                var in_tempMax : Int = Integer.parseInt(tempMax)
+                var in_temp : Float = temp.toFloat()
+                var in_tempMin : Float = tempMin.toFloat()
+                var in_tempMax : Float = tempMax.toFloat()
 
                 val lv_tds = view?.findViewById<TextView>(R.id.tdsValue)
                 val lv_temp = view?.findViewById<TextView>(R.id.tempValue)

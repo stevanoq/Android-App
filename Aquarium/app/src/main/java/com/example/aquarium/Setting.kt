@@ -181,14 +181,14 @@ class Setting : Fragment() {
                         var currentValue = et_tempMax.text.toString()
                         var realValue = snapshot.getValue().toString()
 
-                        var in_currentValue : Int = Integer.parseInt(currentValue)
-                        var in_realValue : Int = Integer.parseInt(realValue)
+                        var in_currentValue : Float = currentValue.toFloat()
+                        var in_realValue : Float = realValue.toFloat()
 
                         if (in_currentValue <= in_realValue){
                             Toast.makeText(activity, "Nilai Suhu Maksimal Harus Lebih Besar Dari Minimal", Toast.LENGTH_SHORT).show()
                         }
                         else {
-                            dbref.child("value").child("tempMax").setValue(tempMax.toInt())
+                            dbref.child("value").child("tempMax").setValue(tempMax.toFloat())
                                 .addOnCompleteListener {
                                     if (it.isSuccessful){
                                         Toast.makeText(activity, "Nilai Suhu Maksimal Berhasil Diubah", Toast.LENGTH_SHORT).show()
@@ -215,18 +215,19 @@ class Setting : Fragment() {
                 dbref.child("value").child("tempMax").addValueEventListener(object : ValueEventListener{
                     override fun onDataChange(snapshot: DataSnapshot) {
                         var realValue = snapshot.getValue().toString()
+                        var currentValue = et_tempMin.text.toString()
 
-                        var in_currentValue : Int = Integer.parseInt(tempMin)
-                        var in_realValue : Int = Integer.parseInt(realValue)
+                        var in_currentValue : Float = currentValue.toFloat()
+                        var in_realValue : Float = realValue.toFloat()
 
                         if (in_currentValue >= in_realValue){
                             Toast.makeText(activity, "Nilai Suhu Minimal Harus Lebih Kecil Dari Maksimal", Toast.LENGTH_SHORT).show()
                         }
                         else {
-                            dbref.child("value").child("tdsMax").setValue(tempMin.toInt())
+                            dbref.child("value").child("tempMin").setValue(tempMin.toFloat())
                                 .addOnCompleteListener {
                                     if (it.isSuccessful){
-                                        Toast.makeText(activity, "Nilai TDS Maksimal Berhasil Diubah", Toast.LENGTH_SHORT).show()
+                                        Toast.makeText(activity, "Nilai Suhu Minimal Berhasil Diubah", Toast.LENGTH_SHORT).show()
                                         et_tempMin.text.clear()
                                     }
                                 }
