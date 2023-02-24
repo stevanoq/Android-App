@@ -35,6 +35,7 @@ class MainActivity : AppCompatActivity() {
     private lateinit var userArrayList: ArrayList<Item>
     private lateinit var dbref : DatabaseReference
     private lateinit var code : String
+    private lateinit var count : String
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -102,8 +103,6 @@ class MainActivity : AppCompatActivity() {
             Log.d("code", code)
             barcodeGenerator()
         }
-
-
     }
 
     private fun getCode(){
@@ -204,9 +203,9 @@ class MainActivity : AppCompatActivity() {
                     }
                 }
 
-            if (dbref.child(input_resi).child("status").setValue("Proses").isSuccessful){
-
-            }
+//            if (dbref.child(input_resi).child("status").setValue("Proses").isSuccessful){
+//
+//            }
 
         }
     }
@@ -218,6 +217,11 @@ class MainActivity : AppCompatActivity() {
             dbref.addListenerForSingleValueEvent(object : ValueEventListener{
                 override fun onDataChange(snapshot: DataSnapshot) {
                     if (snapshot.exists()){
+                        count = snapshot.childrenCount.toString()
+                        FirebaseDatabase.getInstance().getReference(userId)
+                            .child("esp")
+                            .child("count")
+                            .setValue(count)
                         for (userSnapshot in snapshot.children){
                             val item = userSnapshot.getValue(Item::class.java)
                             userArrayList.add(item!!)
