@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Coffee Bean Dryer</string>
+    <string name="nol">0</string>
+    <string name="celcius">°C</string>
+    <dimen name="TextSize">30dp</dimen>
+    <dimen name="iconSize">60dp</dimen>
+    <dimen name="cvWidth">300dp</dimen>
+</resources>

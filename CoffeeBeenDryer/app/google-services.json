@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "577431726526",
+    "firebase_url": "https://coffee-been-dryer-default-rtdb.firebaseio.com",
+    "project_id": "coffee-been-dryer",
+    "storage_bucket": "coffee-been-dryer.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:577431726526:android:2771088f854fc8dd72f1ef",
+        "android_client_info": {
+          "package_name": "com.example.coffeebeendryer"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "577431726526-7gm49hmbfnun1ct03hsfeesu214u4lfd.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDsjnQ2O4KoM6qBAaH6cRAw7F-mc0pMf6w"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "577431726526-7gm49hmbfnun1ct03hsfeesu214u4lfd.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "559195491904",
+    "firebase_url": "https://loadcell-f9d72-default-rtdb.firebaseio.com",
+    "project_id": "loadcell-f9d72",
+    "storage_bucket": "loadcell-f9d72.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:559195491904:android:d9695c183f8ce193f299a5",
+        "android_client_info": {
+          "package_name": "com.example.loadcell"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "559195491904-p0jm3bsq84flufj635i6gtqvqkfjgdp1.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCs8w_io0feYQsBt6wI8kywu9NuEmZ0GgE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "559195491904-p0jm3bsq84flufj635i6gtqvqkfjgdp1.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

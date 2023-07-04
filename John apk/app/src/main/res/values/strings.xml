@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">Jozzy Smartbox</string>
+    <string name="login_txt"><b><i>GO</i></b></string>
+    <string name="daftarakun"><b><i>Daftar Akun</i></b></string>
+    <string name="daftar_btn"><b><i>Daftar</i></b></string>
+    <string name="lupa_password"><b>Lupa Password</b></string>
+    <string name="alert_message">Anda yakin ingin menghapus resi ini ?</string>
+    <string name="forget_message"><b>Silahkan masukan email anda</b></string>
+    <string name="confirm"><b><i>Confirm</i></b></string>
+    <string name="cancle"><b><i>Cancle</i></b></string>
+    <string name="tutup"><b><i>Tutup</i></b></string>
+    <string name="barcodeInfo"><b>Barcode anda hanya dapat digunakan 1 kali</b></string>
+    <string name="logoutMessage"><b>Anda ingin LOGOUT ?</b></string>
+    <string name="deleteAccountMessage"><b>Anda Ingin Menghapus AKUN Anda ?</b></string>
+    <string name="deleteLogMessage"><b>Anda Ingin Menghapus LOG Akun Anda ?</b></string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>
